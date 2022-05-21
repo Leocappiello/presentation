@@ -1,0 +1,17 @@
+span{
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: 0 0 0.5rem 0;
+    font-size: 3rem;
+    letter-spacing: -.04em;
+    line-height: 1.1;
+    position: relative;
+}
+
+span::before {
+    background: linear-gradient(90deg, red, blue);
+    content: var(--content);
+    position: absolute;
+    inset: 0;
+}

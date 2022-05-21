@@ -1,0 +1,8 @@
+body{
+    margin: 0;
+    background-color: #282828;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
